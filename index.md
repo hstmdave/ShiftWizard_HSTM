@@ -4,7 +4,7 @@
 	  function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-			embeddedservice_bootstrap.settings.chatButtonPosition = "top: 20px, right: 20px"; // Setting chat button position
+			embeddedservice_bootstrap.settings.chatButtonPosition = "95%, 95%"; // Setting chat button position
 
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
