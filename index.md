@@ -14,19 +14,19 @@
 			});
 
 			embeddedservice_bootstrap.init(
-				'00DWF000005GVpl',
-				'ShiftWizard_Messaging',
-				'https://healthstream--hstm.sandbox.my.site.com/ESWShiftWizardMessaging1730990380074',
+				'00DWL0000025lLJ',
+				'Streamy_ShiftWizard',
+				'https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1737139032082',
 				{
 					scrt2URL: 'https://healthstream--hstm.sandbox.my.salesforce-scrt.com'
 				}
 			);
-		  } catch (err) {
+		} catch (err) {
 			console.error('Error loading Embedded Messaging: ', err);
-		  }
-	  };
-    </script>
-    <script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWShiftWizardMessaging1730990380074/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+		}
+	};
+</script>
+<script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1737139032082/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
   </body>
 </html>
 
