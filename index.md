@@ -1,11 +1,13 @@
 <html>
+<head><style>.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton { width: 40px; height: 40px; }
+#embeddedMessagingIconContainer svg { max-height: 20px; max-width: 20px; }</style>
+</head>
   <body>
     <script type='text/javascript'>
 	  function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 			embeddedservice_bootstrap.settings.chatButtonPosition = "1%, 15%"; // Setting chat button position
-   			embeddedservice_bootstrap.settings.chatButtonStyles = {width: "40px", height: "40px"}; // Set chat button size to 40x40
 
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
