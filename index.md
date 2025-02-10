@@ -1,6 +1,6 @@
 <html>
 <head>
-	<style>.embeddedMessagingConversationButtonWrapper, embeddedMessagingConversationButton, .minimizedButtonWrapper .minimizedButton, .embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton, .minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf], .minimizedButton { width: 40px !important; height: 40px !important; }
+	<style>.embeddedMessagingConversationButtonWrapper, #embeddedMessagingConversationButton, .minimizedButtonWrapper .minimizedButton, .embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton, .minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf], .minimizedButton { width: 40px !important; height: 40px !important; }
 	#embeddedMessagingIconContainer svg, embeddedmessaging-minimized-state svg, button svg, .minimizedButton[lwc-2tu55qmbbaf] div[class="minimizedButtonIconContainer"][lwc-2tu55qmbbaf] > svg.minimizedButtonIconChat[lwc-2tu55qmbbaf]  { max-height: 20px !important; max-width: 20px !important; } </style>
 </head>
   <body>
