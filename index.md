@@ -1,7 +1,7 @@
 <html>
 <head>
-	<style>.embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton { width: 40px; height: 40px; }
-	#embeddedMessagingIconContainer svg, embeddedmessaging-minimized-state svg  { max-height: 20px; max-width: 20px; } </style>
+	<style>.embeddedMessagingConversationButtonWrapper, embeddedMessagingConversationButton, .minimizedButton  { width: 40px; height: 40px; }
+	#embeddedMessagingIconContainer svg, embeddedmessaging-minimized-state svg, button svg  { max-height: 20px; max-width: 20px; } </style>
 </head>
   <body>
     <script type='text/javascript'>
