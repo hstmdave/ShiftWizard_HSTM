@@ -1,6 +1,6 @@
 <html>
 <head>
-	<style>.embeddedMessagingConversationButtonWrapper, embeddedMessagingConversationButton, .minimizedButtonWrapper .minimizedButton  { width: 40px !important; height: 40px !important; }
+	<style>.embeddedMessagingConversationButtonWrapper, embeddedMessagingConversationButton, .minimizedButtonWrapper .minimizedButton,  .embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton   { width: 40px !important; height: 40px !important; }
 	#embeddedMessagingIconContainer svg, embeddedmessaging-minimized-state svg, button svg  { max-height: 20px; max-width: 20px; } </style>
 </head>
   <body>
