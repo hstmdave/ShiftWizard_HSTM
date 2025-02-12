@@ -1,14 +1,10 @@
 <html>
-<head>
-	<style>.embeddedMessagingConversationButtonWrapper, #embeddedMessagingConversationButton, .minimizedButtonWrapper .minimizedButton, .embeddedMessagingConversationButtonWrapper .embeddedMessagingConversationButton, .minimizedButtonWrapper[lwc-2tu55qmbbaf] .minimizedButton[lwc-2tu55qmbbaf], .minimizedButton { width: 40px !important; height: 40px !important; }
-	#embeddedMessagingIconContainer svg, embeddedmessaging-minimized-state svg, button svg, .minimizedButton[lwc-2tu55qmbbaf] div[class="minimizedButtonIconContainer"][lwc-2tu55qmbbaf] > svg.minimizedButtonIconChat[lwc-2tu55qmbbaf]  { max-height: 20px !important; max-width: 20px !important; } </style>
-</head>
   <body>
     <script type='text/javascript'>
 	  function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
-			embeddedservice_bootstrap.settings.chatButtonPosition = "1%, 15%"; // Setting chat button position
+			embeddedservice_bootstrap.settings.chatButtonPosition = "1%, 1%"; // Setting chat button position, measured from bottom right
 
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
@@ -28,8 +24,8 @@
 			console.error('Error loading Embedded Messaging: ', err);
 		}
 	};
-</script>
-<script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1738782863007/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+   </script>
+   <script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1738782863007/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
   </body>
 </html>
 
