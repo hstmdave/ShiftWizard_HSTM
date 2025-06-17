@@ -13,9 +13,9 @@
 			});
 
 			embeddedservice_bootstrap.init(
-				'00DWL0000025lLJ',
+				'00DWL000002dfgT',
 				'Streamy_ShiftWizard',
-				'https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1738782863007',
+				'https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1737139032082',
 				{
 					scrt2URL: 'https://healthstream--hstm.sandbox.my.salesforce-scrt.com'
 				}
@@ -25,7 +25,8 @@
 		}
 	};
    </script>
-   <script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1738782863007/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+   <script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1737139032082/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'>
+   </script>
   </body>
 </html>
 
