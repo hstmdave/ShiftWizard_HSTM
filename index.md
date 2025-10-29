@@ -1,6 +1,5 @@
-<html>
-  <body>
-    <script type='text/javascript'>
+
+<script type='text/javascript'>
 	  function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
@@ -13,7 +12,7 @@
 			});
 
 			embeddedservice_bootstrap.init(
-				'00DWL000002dfgT',
+				'00DWL000003W4Bd',
 				'Streamy_ShiftWizard',
 				'https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1737139032082',
 				{
@@ -24,9 +23,7 @@
 			console.error('Error loading Embedded Messaging: ', err);
 		}
 	};
-   </script>
-   <script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1737139032082/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'>
-   </script>
-  </body>
-</html>
+</script>
+<script type='text/javascript' src='https://healthstream--hstm.sandbox.my.site.com/ESWStreamyShiftWizard1737139032082/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
